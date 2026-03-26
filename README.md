@@ -1,7 +1,7 @@
 # 🤖 Intelligent Warehouse Picking Robot
 ### Vision-Based Dynamic Task Optimization | ROS2 · OpenCV · Nav2 · Gazebo
 
-**Team Nexus** — Arjun Sharma · Priya Nair · Rahul Menon · Sneha Patel  
+**Team SudoSquad** — Arjun Sharma · Priya Nair · Rahul Menon · Sneha Patel  
 Track: **Robotics + AI** | Hackathon 2025
 
 ---
@@ -75,7 +75,7 @@ warehouse_robot_ws/
 ```bash
 mkdir -p ~/warehouse_robot_ws/src
 cd ~/warehouse_robot_ws/src
-git clone https://github.com/team-nexus/warehouse_robot.git
+git clone https://github.com/team-SudoSquad/warehouse_robot.git
 ```
 
 ### 2. Install ROS2 dependencies
