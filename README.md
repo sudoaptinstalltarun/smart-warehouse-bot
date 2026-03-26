@@ -75,7 +75,7 @@ warehouse_robot_ws/
 ```bash
 mkdir -p ~/warehouse_robot_ws/src
 cd ~/warehouse_robot_ws/src
-git clone https://github.com/team-SudoSquad/warehouse_robot.git
+git clone https://github.com/sudoaptinstalltarun/smart-warehouse-bot.git
 ```
 
 ### 2. Install ROS2 dependencies
