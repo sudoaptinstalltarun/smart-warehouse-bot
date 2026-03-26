@@ -1,7 +1,7 @@
 # 🤖 Intelligent Warehouse Picking Robot
 ### Vision-Based Dynamic Task Optimization | ROS2 · OpenCV · Nav2 · Gazebo
 
-**Team SudoSquad** — Arjun Sharma · Priya Nair · Rahul Menon · Sneha Patel  
+**Team SudoSquad** — Tarun Kumar· Akshitha Shetty · S Sathish Kumar ·  
 Track: **Robotics + AI** | Hackathon 2025
 
 ---
