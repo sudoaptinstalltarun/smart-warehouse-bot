@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>warehouse_robot</name>
+  <version>1.0.0</version>
+  <description>
+    Intelligent Warehouse Picking Robot using Vision-Based Dynamic Task Optimization.
+    Perception → Task Scheduler → Nav2 pipeline on ROS2 Humble.
+  </description>
+
+  <maintainer email="team.nexus@example.com">Team Nexus</maintainer>
+  <license>Apache-2.0</license>
+
+  <author email="arjun@example.com">Arjun Sharma</author>
+  <author email="priya@example.com">Priya Nair</author>
+  <author email="rahul@example.com">Rahul Menon</author>
+  <author email="sneha@example.com">Sneha Patel</author>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Core ROS2 -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+
+  <!-- Navigation -->
+  <depend>nav2_msgs</depend>
+
+  <!-- Vision -->
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+
+  <!-- Robot description -->
+  <depend>robot_state_publisher</depend>
+  <depend>joint_state_publisher</depend>
+  <depend>xacro</depend>
+
+  <!-- Gazebo -->
+  <depend>gazebo_ros</depend>
+  <depend>gazebo_plugins</depend>
+
+  <!-- SLAM -->
+  <depend>slam_toolbox</depend>
+
+  <!-- Nav2 bringup -->
+  <depend>nav2_bringup</depend>
+
+  <!-- Launch -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,34 @@
+[
+  {
+    "marker_id": 0,
+    "task_id": "A",
+    "x": 2.6,
+    "y": -5.0,
+    "yaw": 0.0,
+    "description": "Shelf A1 face – Task A (10kg, HIGH)"
+  },
+  {
+    "marker_id": 1,
+    "task_id": "B",
+    "x": -3.4,
+    "y": -5.0,
+    "yaw": 3.14159,
+    "description": "Shelf B1 face – Task B (2kg, LOW)"
+  },
+  {
+    "marker_id": 2,
+    "task_id": "C",
+    "x": 2.6,
+    "y": -2.0,
+    "yaw": 0.0,
+    "description": "Shelf A2 face – Task C (7kg, MEDIUM)"
+  },
+  {
+    "marker_id": 3,
+    "task_id": "D",
+    "x": -3.4,
+    "y": -2.0,
+    "yaw": 3.14159,
+    "description": "Shelf B2 face – Task D (5kg, HIGH) – dynamic demo"
+  }
+]

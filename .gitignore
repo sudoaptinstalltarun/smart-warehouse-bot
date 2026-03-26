@@ -1,0 +1,32 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Map files (generated)
+*.pgm
+*.yaml
+!config/*.yaml
+
+# Gazebo
+*.log
+/gazebo_client.log
+
+# OS
+.DS_Store
+Thumbs.db
